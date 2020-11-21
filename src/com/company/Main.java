@@ -17,9 +17,11 @@ public class Main {
         Hero[] heroesMas = createHeroes();
         for (Hero currentElement:heroesMas
              ) {
-            System.out.println(currentElement.getAbility());
-            System.out.println(currentElement.getHealth());
-            System.out.println(currentElement.getDamage());
+            System.out.println("___________________");
+            System.out.println(" Hero type: "+currentElement.getAbility());
+            System.out.println(" Hero health: "+currentElement.getHealth());
+            System.out.println(" Hero damage: "+currentElement.getDamage());
+
         }
 
     }
