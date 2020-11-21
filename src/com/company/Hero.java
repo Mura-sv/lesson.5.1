@@ -33,7 +33,9 @@ public class Hero {
         this.health = health;
         this.damage = damage;
         this.ability = ability;
+
     }
+    public Hero(){}
     public Hero(int health,int damage){
         this.health = health;
         this.damage = damage;
