@@ -14,10 +14,8 @@ public class Main {
                 + "\nBoss defence type: " + boss.getDefenceType());
 
         createHeroes();
-        for (Hero heroesMas:createHeroes()
-             ) {
-            System.out.println(heroesMas);
-        }
+        Hero[] heroesMas = new Hero[]{};
+
 
     }
 
