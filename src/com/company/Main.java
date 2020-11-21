@@ -13,9 +13,14 @@ public class Main {
         System.out.println("Boss health: " + boss.getHealth() + "\nBoss damage: " + boss.getDamage()
                 + "\nBoss defence type: " + boss.getDefenceType());
 
-        createHeroes();
-        Hero[] heroesMas = new Hero[]{};
 
+        Hero[] heroesMas = createHeroes();
+        for (Hero currentElement:heroesMas
+             ) {
+            System.out.println(currentElement.getAbility());
+            System.out.println(currentElement.getHealth());
+            System.out.println(currentElement.getDamage());
+        }
 
     }
 
